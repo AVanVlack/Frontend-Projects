@@ -1,0 +1,45 @@
+button {
+    margin: 40px;
+    width: 40px;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    color: brown;
+  }
+  
+  #pad-group {
+    text-align: center;
+    max-width: 368px;
+    border: 4px solid rgb(79, 80, 77);
+    margin: 0 auto;
+    
+    border-radius: 5px
+  }
+  
+  #case {
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(54, 54, 52);
+    width: 80vw;
+    border: 8px solid rgb(24, 24, 24);
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  #display {
+    max-width: 369px;
+    text-align: center;
+    color: rgb(225, 115, 91);
+    font-size: 30px;
+    background: rgb(79, 80, 77);
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  #drum-machine {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 20px;
+    background-image: url( https://res.cloudinary.com/giffard/image/upload/v1622034180/Drum/PIXNIO-201892-3693x2462.jpg);
+    background-size: cover;
+  }
