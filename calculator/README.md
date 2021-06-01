@@ -1,8 +1,8 @@
-# Bing, Bang, Crash
+# Pocket Calculator
 
-A simple drum machine. User can click or press a keyboard key to activate an audio clip. A display is updated with the last sound played. Built using React with each drum a React element.
+A simple, stylized calculator. Users are provided a standard calculator array of buttons. A display shows the input and output calculations. Built in pure javascript and css.
 
-[Live Codepen](https://codepen.io/VanVlack/pen/Vwpmzxy?editors=0110)
+[Live Codepen](https://codepen.io/VanVlack/pen/xGWBVY?)
 
 ![Screenshot of the project](screenshot.png)
 

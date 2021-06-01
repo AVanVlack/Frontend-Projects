@@ -1,0 +1,62 @@
+body {
+  background-color: RGB(101, 139, 146);
+}
+.clear-key {
+  position: relative !important;
+  left: 20px;
+  top: 30px;
+  background-color: RGB(71, 86, 90) !important;
+  border: 1px solid white !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  font-size: 7pt !important;
+}
+#device button {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: inline-block;
+  background-color: RGB(134, 181, 189);
+  margin: 1px;
+  flex-grow: 1;
+  border: none;
+  width: 25%;
+  color: white;
+  height: 70px;
+  font-size: 15pt;
+  outline: none;
+}
+
+#display {
+  display: inline;
+  color: white;
+  text-align: right;
+  width: 100%;
+  padding-right: 20px;
+  font-size: 20pt
+}
+
+#device {
+  background-color: RGB(119, 148, 153);
+  width: 290px;
+  margin: auto auto;
+}
+.brand {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: #bdc3c7;
+}
+
+.key-row {
+  display: flex
+}
+
+.display-row {
+  background-color: RGB(71, 86, 90);
+  height: 80px; 
+  display: flex;
+}
+.fn-key {
+  background-color: RGB(125, 204, 218) !important;
+}
+
+
