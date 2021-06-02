@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Garden Dashboard</title>
+    <meta name="description" content="Dashboard to water your plants">
+    <meta name="author" content="Andrew VanVlack">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="content">
+		<h1 id="title" class="title">Garden Minder Dashboard</h1>
+		<p id="description">Lets grow some plants!</p>
+		<div class="card">
+			<div class="card-header">
+				Sensor Graph
+			</div>
+			<div class="card-body">
+				<canvas id="stat-chart" width="400" height="200"></canvas>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+				Water Commands
+			</div>
+			<div class="card-body">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Watering Time (ms)" aria-label="Lenght of time to water in milliseconds" aria-describedby="button-addon4">
+					<div class="input-group-append" id="button-addon4">
+						<button class="btn btn-outline-success" type="button">Water</button>
+						<button class="btn btn-outline-danger" type="button">Stop</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header">
+				Settings
+			</div>
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+					<div>Moisture Calibration: </div>
+					<div class="btn-group btn-group-sm" role="group" aria-label="Moisture Calibration">
+						<button type="button" class="btn btn-outline-secondary">More</button>
+						<button type="button" class="btn btn-outline-secondary">Less</button>
+					</div>
+				</li>
+				<li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+					<div>Water Delay: </diV>
+					<div class="btn-group btn-group-sm" role="group" aria-label="Delay">
+						<button type="button" class="btn btn-outline-secondary">1 Day</button>
+						<button type="button" class="btn btn-outline-secondary">1 Week</button>
+						<button type="button" class="btn btn-outline-secondary">1 Month</button>
+					</div>
+				</li>
+				<li class="list-group-item d-flex w-100 justify-content-between align-items-center">
+					Server address:
+					<div class="input-group" id="ip-input">
+					<input type="text" class="form-control col-form-label-sm" placeholder="IP Address" aria-label="IP Address" aria-describedby="button-addon4">
+					<div class="input-group-append btn-group-sm" id="button-addon4">
+						<button class="btn btn-outline-success" type="button">Update</button>
+					</div>
+				</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<body>
+</html>

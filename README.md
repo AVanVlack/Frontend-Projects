@@ -10,7 +10,9 @@ See codepen link for live example with code.
 
 - [Bing, Bang, Crash:](drum/) A drum machine built on React and use of the htmlaudioelement element. [[Codepen]](https://codepen.io/VanVlack/pen/Vwpmzxy?editors=0110)
 
-- [Pocket Calculator:](calculator/) A calculator built in pure javascript and css [[Codepen]](https://codepen.io/VanVlack/pen/xGWBVY?editors=0110)
+- [Pocket Calculator:](calculator/) Simple calculator built in pure javascript and css. [[Codepen]](https://codepen.io/VanVlack/pen/xGWBVY?editors=0110)
+
+- [Garden Dashboard:](dashboard/) Simple dashboard built layed in Bootstrap and Chartjs. [[Codepen]](https://codepen.io/VanVlack/pen/ewgNyM?)
 
 ## Installation and Usage
 
