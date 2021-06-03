@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Pomodoro</title>
+    <meta name="description" content="Pomodoro Timer">
+    <meta name="author" content="Andrew VanVlack">
+
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+
+	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
+
+	<audio id="sound" src="http://www.buddhanet.net/filelib/audio/gong-burmese.wav" preload="auto"></audio>
+</head>
+
+<body>
+<div >
+	<h1 id="title">Pomodoro Clock</h1>
+	<div id="someColor">
+		<div id="display" class="mdl-color--white mdl-shadow--2dp">
+			<h2 id="task">Session</h2>
+			<hr>
+			<h1 id="countdown">0h 30m 0s</h1>
+		</div>
+	</div>
+	<div id="control" class="mdl-color--white mdl-shadow--2dp">
+		<div class="mdl-grid">
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--6-col">
+				<input class="mdl-textfield__input" type="text" pattern="[0-9]*" id="brakeTime" value="5" />
+				<label class="mdl-textfield__label" for="brakeTime">Brake</label>
+				<span class="mdl-textfield__error">Input is not a number!</span>
+				</div>
+			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell mdl-cell--6-col">
+				<input class="mdl-textfield__input" type="text" pattern="[0-9]*" id="sessionTime" value="30" />
+				<label class="mdl-textfield__label" for="sessionTime">Session</label>
+				<span class="mdl-textfield__error">Input is not a number!</span>
+				</div>
+		</div>
+		<div class="mdl-grid">
+			<div class="mdl-cell mdl-cell--4-col">
+				<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" id="startPause">
+						<i class="material-icons">play_arrow</i>
+				</button>
+			</div>
+			<div class="mdl-cell mdl-cell--4-col">
+				<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" id="restart">
+						<i class="material-icons">restore</i>
+				</button>
+			</div>
+			<div class="mdl-cell mdl-cell--4-col">
+				<button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" id="soundMute">
+						<i class="material-icons">volume_up</i>
+				</button>
+			</div>
+		</div>
+	</div>
+<div>
+<script type="text/javascript" src="app.js"></script>
+<!-- 
+Control
+-input for both work and brake
+-sound on and off
+-Start/pause/restart
+-Disable inputs on play.
+Display
+-Large countdown that is button.
+-Shows if on brake or working. Icon?
+-Display shows only, button to slide to setup.
+	-->
+</body>
+</html>

@@ -1,0 +1,21 @@
+#control {
+	width: 200px;
+	margin: 20px auto !important ;
+}
+
+#display {
+	text-align: center;
+	width: 300px;
+	margin: auto auto;
+	padding: 10px 20px;
+}
+
+body {
+	background-color: RGB(22, 160, 133);
+}
+
+#title {
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}

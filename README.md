@@ -12,7 +12,9 @@ See codepen link for live example with code.
 
 - [Pocket Calculator:](calculator/) Simple calculator built in pure javascript and css. [[Codepen]](https://codepen.io/VanVlack/pen/xGWBVY?editors=0110)
 
-- [Garden Dashboard:](dashboard/) Simple dashboard built layed in Bootstrap and Chartjs. [[Codepen]](https://codepen.io/VanVlack/pen/ewgNyM?)
+- [Garden Dashboard:](dashboard/) Clean dashboard built layed in Bootstrap and Chartjs. [[Codepen]](https://codepen.io/VanVlack/pen/ewgNyM?)
+
+- [Pomodoro:](pomodoro/) Configurable pomodoro timer. [[Codepen]](https://codepen.io/VanVlack/pen/PqROXN?)
 
 ## Installation and Usage
 
