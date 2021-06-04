@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Weather Display</title>
+    <meta name="description" content="Displays the weather via your location">
+    <meta name="author" content="Andrew VanVlack">
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	
+
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload="getLocation()">
+	<h1 id="loading">Please wait while we gaze at the sky...</h1>
+	<div id="box">
+		<div class="child">
+			<h3 class="label">City</h3>
+			<p id="city" class="item"></p>
+		</div>
+		<div class="child">
+			<h3 class="label">Weather</h3>
+			<div id="description-box" class="item">
+				<img id="icon">
+				<p id="description"></p>
+			</div>
+		</div>
+		<div class="child">
+			<h3 class="label">Tempreature</h3>
+			<p id="tempreature" class="item"></p>
+		</div>
+		<div class="child">
+			<h3 class="label">Wind Speed</h3>
+			<p id="wind" class="item"></p>
+		</div>
+	</div>
+	<a id="toggle" href="#0">Change Unit</a>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

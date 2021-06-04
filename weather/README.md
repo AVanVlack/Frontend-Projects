@@ -1,8 +1,8 @@
-# Pomodoro
+# Weather
 
-A 5/30 brake/work timer with settable time lengths and optional sounds when timers end.
+Finds the users loction via the browsers location api, or falls back to a IP based location. Then gets and displays the weather including a background to match the mood.
 
-[Live Codepen](https://codepen.io/VanVlack/pen/PqROXN?)
+[Live Codepen](https://codepen.io/VanVlack/pen/OVxWmQ?)
 
 ![Screenshot of the project](screenshot.png)
 

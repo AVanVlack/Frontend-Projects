@@ -1,4 +1,4 @@
-# Frontend Project Collection
+# Frontend Toy Collection
 
 > A collection of projects exploring frontend web technologies.
 
@@ -15,6 +15,8 @@ See codepen link for live example with code.
 - [Garden Dashboard:](dashboard/) Clean dashboard built layed in Bootstrap and Chartjs. [[Codepen]](https://codepen.io/VanVlack/pen/ewgNyM?)
 
 - [Pomodoro:](pomodoro/) Configurable pomodoro timer. [[Codepen]](https://codepen.io/VanVlack/pen/PqROXN?)
+
+- [Weather:](weather/) Finds your location to display the weather. [[Codepen]](https://codepen.io/VanVlack/pen/OVxWmQ?)
 
 ## Installation and Usage
 

@@ -1,0 +1,49 @@
+body {
+	background-size: cover;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+#box {
+	max-width: 75%;
+	margin: auto;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	display: none;
+    margin-top: 25vh;
+}
+
+.label {
+    color: white;
+    margin-bottom: 0;
+    background-color: RGBA(29, 31, 33, .85);
+    padding: 3px 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    background-color: RGBA(29, 31, 33, .7);
+    padding: 0 15px;
+    height: 70px;
+    min-width: 160px;
+    color: white;
+    margin-top: 0;
+}
+
+#description-box {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+#loading {
+    margin-top: 25vh;
+    text-align: center;
+}
+
+#toggle {
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    
