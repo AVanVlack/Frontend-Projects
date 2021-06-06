@@ -4,7 +4,9 @@ A game of tic tac toe against a computer algorithm.
 
 [Live Codepen](https://codepen.io/VanVlack/pen/gpzBzK?)
 
-![Screenshot of the project](screenshot.png)
+<p align="center">
+  <img width="600" src="screenshot.png">
+</p>
 
 ## Installation and Usage
 
