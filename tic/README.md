@@ -1,8 +1,8 @@
-# Weather
+# Tic Tac Toe
 
-Finds the users location via the geolocation api or falls back to IP based location service. Then gets and displays the weather, including a background to match the mood.
+A game of tic tac toe against a computer algorithm.
 
-[Live Codepen](https://codepen.io/VanVlack/pen/OVxWmQ?)
+[Live Codepen](https://codepen.io/VanVlack/pen/gpzBzK?)
 
 ![Screenshot of the project](screenshot.png)
 

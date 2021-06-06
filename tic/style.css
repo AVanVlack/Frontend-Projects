@@ -1,0 +1,69 @@
+body {
+    background-color: RGB(55, 80, 97);
+  }
+  
+  #board {
+    max-width: 240px;
+    margin: auto auto;
+    background-color: white;
+  }
+  
+  #board button {
+    outline: none;
+    border: none;
+    background-color: RGB(55, 80, 97);
+    width: 80px;
+    height: 80px;
+    font-size: 30pt;
+    font-weight: bold;
+  }
+  
+  #board button:hover {
+    background-color: RGB(70, 70, 97);
+  }
+  
+  .Δ {
+    color: RGB(85, 205, 237);
+  }
+  
+  .O {
+    color: RGB(230, 166, 211);
+  }
+  
+  .row {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin: 1px 0;
+  }
+  
+  .col-mid {
+    margin: 0 1px;
+  }
+  
+  .brand {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  .display h3,
+  .display h4,
+  .display {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+  }
+  
+  .display div {
+    display: inline-block !important;
+    margin: 0 20px 30px 20px;
+  }
+  
+  .player {
+    display: inline;
+    font-weight: 400;
+  
+  }
+  

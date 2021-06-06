@@ -18,6 +18,8 @@ See codepen link for live example with code.
 
 - [Weather:](weather/) Finds your location to display the weather. [[Codepen]](https://codepen.io/VanVlack/pen/OVxWmQ?)
 
+- [Tic Tac Toe:](tic/) Play a game of tic tac toe against the computer. [[Codepen]](https://codepen.io/VanVlack/pen/gpzBzK?)
+
 ## Installation and Usage
 
 - `git pull` this repository.
