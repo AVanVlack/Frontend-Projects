@@ -4,7 +4,9 @@ A dahsboard layout to control and chart a garden watering system. Built with Boo
 
 [Live Codepen](https://codepen.io/VanVlack/pen/ewgNyM?)
 
-![Screenshot of the project](screenshot.png)
+<p align="center">
+  <img width="600" src="screenshot.png">
+</p>
 
 ## Installation and Usage
 

@@ -4,7 +4,9 @@ A simple drum machine. User can click or press a keyboard key to activate an aud
 
 [Live Codepen](https://codepen.io/VanVlack/pen/Vwpmzxy?editors=0110)
 
-![Screenshot of the project](screenshot.png)
+<p align="center">
+  <img width="600" src="screenshot.png">
+</p>
 
 ## Installation and Usage
 

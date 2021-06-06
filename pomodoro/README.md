@@ -4,7 +4,9 @@ A 5/30 brake/work timer with settable time lengths and optional sounds when time
 
 [Live Codepen](https://codepen.io/VanVlack/pen/PqROXN?)
 
-![Screenshot of the project](screenshot.png)
+<p align="center">
+  <img width="600" src="screenshot.png">
+</p>
 
 ## Installation and Usage
 

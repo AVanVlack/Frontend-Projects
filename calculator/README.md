@@ -4,7 +4,9 @@ A simple, stylized calculator. Users are provided a standard calculator array of
 
 [Live Codepen](https://codepen.io/VanVlack/pen/xGWBVY?)
 
-![Screenshot of the project](screenshot.png)
+<p align="center">
+  <img width="600" src="screenshot.png">
+</p>
 
 ## Installation and Usage
 
