@@ -4,7 +4,9 @@ Finds the users location via the geolocation api or falls back to IP based locat
 
 [Live Codepen](https://codepen.io/VanVlack/pen/OVxWmQ?)
 
-![Screenshot of the project](screenshot.png)
+<p align="center">
+  <img width="600" src="screenshot.png">
+</p>
 
 ## Installation and Usage
 
